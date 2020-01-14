@@ -1,5 +1,31 @@
-.parallax-container {
-    max-height: 500px;
+.pasirinkburbula {
+  display: flex;
+  padding-left: 1cm;
+  padding-right: 1cm;
   }
 
-   
+.burbulas {
+  width: 33.33333%;
+  height: 33.33333%;
+  text-align: center;
+  padding: 20px;
+    
+}
+
+.burbulas img :hover {
+  
+}
+
+.burbulas img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.select-date {
+  font-size: 25px;
+}
+
+.pasirinkdata {
+  padding-right: 17cm;
+  padding-left: 1cm;
+  
