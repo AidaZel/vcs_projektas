@@ -4,9 +4,4 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   $(".dropdown-trigger").dropdown();
-
-
-
-$(document).ready(function(){
-  $('.carousel').carousel();
-});
+  

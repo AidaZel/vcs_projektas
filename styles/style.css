@@ -1,7 +1,8 @@
 .pasirinkburbula {
   display: flex;
-  padding-left: 1cm;
-  padding-right: 1cm;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   }
 
 .burbulas {
@@ -9,10 +10,11 @@
   height: 33.33333%;
   text-align: center;
   padding: 20px;
-    
+     
 }
 
 .burbulas img :hover {
+
   
 }
 
@@ -25,7 +27,11 @@
   font-size: 25px;
 }
 
-.pasirinkdata {
-  padding-right: 17cm;
-  padding-left: 1cm;
+
+.social {
+  width: 40px;
+}
   
+.parallax img {
+  max-width: 100%;
+}
