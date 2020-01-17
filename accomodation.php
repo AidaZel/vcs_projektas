@@ -33,29 +33,64 @@
       </ul>
       </div>
     </nav>       
-              
-    <h1 class="center-align indigo-text text-lighten-1">Unique Places to Stay</h1>
-         
-    <div class="row">
-      <div class="col s4 m4">
-        <div class="card">
+                   
+    <div class="parallax-container">
+      <br>
+      <h1 class="center-align indigo-text text-lighten-1">Unique Places to Stay</h1>
+      <div class="parallax">
+      <img src="pictures/iceland-6.jpg" alt="" class="responsive img"></div>
+    </div>
+   
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header"></h2>
+        <div class="row">
+
+        <div class="col s6">    
+          <div class="card horizontal">
           <div class="card-image">
-            <img src="pictures/karibai.jpg">
-            <span class="card-title">Extraordinary apartment near beach</span>
-          </div>
-          <div class="card-content">
-            <p>Apartment on the beach front of Monterosso, totally renewed (ready from mid April), peculiarly furnished, very comfortable and functional: inside the apartment you will find what you will be able to admire from the balcony, namely the sky, the sea and the sand.....!</p>
-          </div>
-          <div class="card-action">
+          <img src="pictures/iceland-8.jpg">
+        </div>
+          <div class="card-stacked">
+            <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+            </div>
+            <div class="card-action">
             <a href="#">This is a link</a>
+            </div>
           </div>
         </div>
+        </div>
+
+          
+    <div class="col s6">
+    
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="pictures/iceland-9.jpg">
       </div>
-    </div>   
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  
 
-         
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="parallax-container">
+      <div class="parallax">
+      <img src="pictures/iceland-7.jpg" alt="" class="responsive img"></div>
+    </div> 
+        
     
     <footer class="page-footer">
       <div class="container">
@@ -88,7 +123,14 @@
       </div>
     </footer>
 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $('.parallax').parallax();
+      });
+    </script>
+
     <script src="scripts/script.js"></script>
 </body>
 
