@@ -1,3 +1,12 @@
+* {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.mainquestion {
+  padding-left: 15px;
+  padding-right: 15px;  
+}
+
 .pasirinkburbula {
   display: flex;
   padding-bottom: 20px;
@@ -9,13 +18,7 @@
   width: 33.33333%;
   height: 33.33333%;
   text-align: center;
-  padding: 20px;
-     
-}
-
-.burbulas img :hover {
-
-  
+  padding: 20px;   
 }
 
 .burbulas img {
@@ -23,15 +26,15 @@
   border-radius: 50%;
 }
 
+.burbulas:hover img {
+  transform: scale(1.4);
+  }
+
 .select-date {
   font-size: 25px;
 }
 
-
-.social {
-  width: 40px;
-}
-  
 .parallax img {
   max-width: 100%;
 }
+

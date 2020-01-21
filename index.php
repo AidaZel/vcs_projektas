@@ -7,12 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Projektinis darbas</title>
 
-
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="styles/style.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <?php include("db_connection_project.php");?>
 
 </head>
 
@@ -41,29 +43,28 @@
   <section>
 
     <div class="mainquestion">
-      <h1 class="center-align blue-grey-text text-darken-3">What is your next dream holidays destination?</h1>
+      <h1 class="center-align blue-grey-text text-darken-3">Where is your next dream holidays destination?</h1>
     </div>
 
     <div class="pasirinkburbula">
-
       <div class="burbulas">
-        <a href="countryinfo.php?country=Reykjavík, Iceland"><img src="pictures/iceland-1.JPG" alt=""></a>
+        <a href="countryinfo_iceland.php"><img src="pictures/iceland-1.jpg" alt=""></a>        
       </div>
 
       <div class="burbulas">
-        <a href="countryinfo.php?country=Monterosso al Mare, Italy"><img src="pictures/italy-1.jpg" alt=""></a>
+        <a href="countryinfo_italy.php"><img src="pictures/italy-1.jpg" alt=""></a>
       </div>
 
       <div class="burbulas">
-        <a href="countryinfo.php?country=Port of Spain, Trinidad and Tobago"><img src="pictures/trinidad-1.jpg" alt=""></a>
+        <a href="countryinfo_trinidad.php"><img src="pictures/trinidad-1.jpg" alt=""></a>
       </div>
 
       <div class="burbulas">
-        <a href="countryinfo.php?country=Los Angeles, USA"><img src="pictures/usa-1.jpg" alt=""></a>
+        <a href="countryinfo_usa.php"><img src="pictures/usa-1.jpg" alt=""></a>
       </div>
-
     </div>
   </section>
+ 
 
   <footer class="page-footer">
     <div class="container">
@@ -90,7 +91,7 @@
 
     <div class="footer-copyright">
       <div class="container">
-        © 2020 Copyright
+        All photos 2020 © Aida Želvytė
         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
     </div>
@@ -98,6 +99,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="scripts/script.js"></script>
+  
 </body>
 
 
